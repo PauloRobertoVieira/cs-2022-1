@@ -28,12 +28,14 @@ git --version
     Especifica o numero de linha absoluto (Mostra logs de commit)
     
 3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
-
+  git add nomeDoArquivo.ExtensaoDoArquivo (adicionar um por um) ou git add --all (adiciona todos simultaneamente deixando os arquivos prontos para serem comitados)
+  git commit -m "deixe um comentários explicando o que foi feito"
 4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
-
+  git status
 5. Em um dado repositório, arquivos simplesmente copiados para lá, ou seja, _untracked_, podem ser exibidos/identificados com que comando?
 
 6. Qual o comando para efetuar um _commit_?
+  git commit -m "Inserir um comentário explicando o que foi feito"
 
 7. Qual o comando que devemos empregar para descartar mudanças ocorridas no arquivo teste.txt, por exemplo?
 
