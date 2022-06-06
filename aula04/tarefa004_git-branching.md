@@ -1,7 +1,7 @@
 ### Tarefa 004: Git Branching - 03/06/2021
 
 1. Qual o nome do branch padrão do Git?
-    - *master (apesar de estar descrito na documentação como master, por questões historico culturais agora esta adotando o nome *main)
+    <br /> *master (apesar de estar descrito na documentação como master, por questões historico culturais agora esta adotando o nome *main)
 2. O que o comando **<code>git branch nome</code>** realiza?
     - cria uma nova branch chamada nome
 3. Como criar um branch a partir de um commit específico?
