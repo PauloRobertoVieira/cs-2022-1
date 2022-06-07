@@ -4,57 +4,62 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 
 
 1. Qual o comando para obter a versão instalada do Git?
-git --version
+  <br/>git --version
 2. Qual o efeito da execução de cada um dos comandos abaixo?
   a. git help
-    Irá exibir o manual de ajuda do git, normalmente é utilizado com algum comando.
+    <br/>Irá exibir o manual de ajuda do git, normalmente é utilizado com algum comando.
   b. git help checkout
-    Apresenta o manual de ajuda do comando git checkout e as possibilidades que podemos utilizar neste comando
+    <br/>Apresenta o manual de ajuda do comando git checkout e as possibilidades que podemos utilizar neste comando
   c. git help merge
-    Apresenta o manual de ajuda do comando git merge, explicações de seu uso e as possibilidades
+    <br/>Apresenta o manual de ajuda do comando git merge, explicações de seu uso e as possibilidades
   d. git init
-    Cria um repositório vazio ou reinicializa um existente
+    <br/>Cria um repositório vazio ou reinicializa um existente
   e. git add --all
-    Adiciona todos os arquivos (modificados, alterados e removidos) na área de preparação (staging area) e os deixa preparado para o commit e indica ao git que esses arquivos serão rastreados.
+    <br/>Adiciona todos os arquivos (modificados, alterados e removidos) na área de preparação (staging area) e os deixa preparado para o commit e indica ao git que esses arquivos serão rastreados.
   f. git add -u
-    Atualize o índice exatamente onde ele já possui uma entrada correspondente a <pathspec>. Isso remove e modifica as entradas de índice para corresponder à árvore de trabalho, mas não adiciona novos arquivos.
+    <br/>Atualize o índice exatamente onde ele já possui uma entrada correspondente a <pathspec>. Isso remove e modifica as entradas de índice para corresponder à árvore de trabalho, mas não adiciona novos arquivos.
   g. git config -l
-    Liste todas as variáveis definidas no arquivo de configuração, juntamente com seus valores.
+    <br/>Liste todas as variáveis definidas no arquivo de configuração, juntamente com seus valores.
   h. git mv a.txt b.txt
-    Renomeia o arquivo a.txt para b.txt (Mova ou renomeie um arquivo, diretório ou link simbólico.)
+    <br/>Renomeia o arquivo a.txt para b.txt (Mova ou renomeie um arquivo, diretório ou link simbólico.)
   i. git reset --hard
-    O git reset opera nas "três árvores do Git". Essas árvores são o Histórico de commits (HEAD), o Índice de staging e o Diretório de trabalho.
+    <br/>O git reset opera nas "três árvores do Git". Essas árvores são o Histórico de commits (HEAD), o Índice de staging e o Diretório de trabalho.
   j. git log -27
-    Especifica o numero de linha absoluto (Mostra logs de commit)
+    <br/>Especifica o numero de linha absoluto (Mostra logs de commit)
     
 3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
-  git add nomeDoArquivo.ExtensaoDoArquivo (adicionar um por um) ou git add --all (adiciona todos simultaneamente deixando os arquivos prontos para serem comitados)
-  git commit -m "deixe um comentários explicando o que foi feito"
+  <br/>git add nomeDoArquivo.ExtensaoDoArquivo (adicionar um por um) ou git add --all (adiciona todos simultaneamente deixando os arquivos prontos para serem comitados)
+  <br/>git commit -m "faça um comentários explicando o que foi feito"
 4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
   git status
 5. Em um dado repositório, arquivos simplesmente copiados para lá, ou seja, _untracked_, podem ser exibidos/identificados com que comando?
-
+  <br/>git status -u
 6. Qual o comando para efetuar um _commit_?
-  git commit -m "Inserir um comentário explicando o que foi feito"
+  <br/>git commit -m "Inserir um comentário explicando o que foi feito"
 
 7. Qual o comando que devemos empregar para descartar mudanças ocorridas no arquivo teste.txt, por exemplo?
-
+  <br/>git revert numeroDaHashAnterior
+  <br/>git revert 39edd9d4e3e91ca6ca0620f40c1a2e8d4a6230a8
 8. O que deve ser feito para que um determinado diretório do seu repositório seja ignorado pelo Git? Faça uma busca por **.gitignore**.
-
+<br/> - Criar o arquivo .gitignore
+<br/> - adicionar a pasta no arquivo
+<br/> - ex: .Exercicios/
 9. O que acontece se o seu repositório local for acidentalmente removido?
-
+<br/> - Todos os arquivos serão perdidos, considerando que foram efetuados os commites isso pode ser revertido utilizando o repositório remoto.
 10. Como clonar um repositório remoto?
-
+<br/> - Acessar o repositório remoto, clicar em code e depois em SSH, copiar endereço
+<br/> - Ir para o diretório onde será feito o clone e utlizar seguinte comando
+<br/> - git clone enderecoSSHcopiado (git clone git@github.com:PauloRobertoVieira/cs-2022-1.git)
 11. Em alguns cenários **git log** pode produzir extensos resultados. Se houver interesse em visualizar o histórico de um repositório, onde cada mudança é fornecida exatamente em uma única linha, qual o comando que deve ser empregado?
-
+<br/> - git log --oneline
 12. Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
-
+<br/> - ~/.gitconfig ou ~/.config/git/config
 13. Qual o comando para criar um repositório local?
-
+<br/> - git init
 14. Qual o nome do diretório criado pelo Git quando se executa o comando **git init**?
-
+<br/> - .git
 15. Qual o comando para adicionar todos os arquivos modificados? (Aqueles para os quais **git status** identificam como **modified**?)
-
+<br/> - git add .
 16. O Git faz uso do valor de hash conhecido por SHA1. O que isto significa? Qual o propósito? O que é SHA1?
 
 17. Qual a palavra para indicar o último _commit_ em vez do valor de hash SHA1 correspondente?
