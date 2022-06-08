@@ -140,16 +140,7 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 <br/># Descarta as alterações efetuadas no arquivo.
 
 35. Veja como interpretar o resultado de git diff [aqui](https://medium.com/therobinkim/how-to-read-a-git-diff-6c87a9dc47c5). Execute, em um dos seus projetos, o comando **git diff HEAD~1 HEAD** e certifique-se de que entende o resultado apresentado.
-<br/># Git diff apresenta a mudanças/alterações antes de fazermos o commit
-
-
-
-
-
-
-
-
-
-
+<br/># Git diff apresenta as mudanças/alterações antes de fazermos o commit
+<br/># Git diff HEAD~1 HEAD compara as versões antes do último commit e o último commit
 
 </DIV/>
