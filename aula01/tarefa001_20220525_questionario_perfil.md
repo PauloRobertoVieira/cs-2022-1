@@ -4,7 +4,7 @@
 2.  Nome: Paulo Roberto Vieira
 
 3.  Qual seu conhecimento/experiência em relação ao desenvolvimento de software?
-    Pouco, iniciei estágio a um mês
+    Pouco, iniciei estágio a um mês.
 
 4.  Quais Linguagens de Programação você domina?
     Dominar considero que nenhuma, mas atualmente estudando e trabalhando com python
