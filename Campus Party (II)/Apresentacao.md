@@ -1,3 +1,3 @@
 Alaor Junior 
-- Uso de Inteligência Artificial para Simplificação dos Serviços Públicos
-Data: 17/06/2022
+- Uso de Inteligência Artificial para Simplificação dos Serviços Públicos <br/>
+- Data: 17/06/2022
