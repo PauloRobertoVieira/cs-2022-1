@@ -1,4 +1,4 @@
-#**Padrões de Codificação**
+# **Padrões de Codificação**
 ### Conceito:
 - Definir padrões é utilizado para garantir uniformidade na equipe e estabelecer boas práticas.
 
@@ -9,7 +9,7 @@
 - Como exemplo de utilização podemos citar a identação, vale ressaltar que linguagens como python a atenção à identação faz uma total diferença, pois, a mesma não utiliza por exemplo {} para definir um escopo de bloco, isso é feito através da identação, ou seja, a identação impactará diretamente na forma de se construir o código.
 
 
-#**Reflexão**
+# **Reflexão**
 ### Conceito:
 - A programação reflexiva é um mecanismo que permite um processo de recursos introspectivos. As APIs de reflexão incorporadas às linguagens de programação são usadas para examinar ou modificar o comportamento de métodos, classes e interfaces em tempo de execução. Você pode usar essa capacidade para aprender sobre a base de código circundante e seu conteúdo.
 
@@ -19,7 +19,7 @@
 ### Um exemplo de utilização
 - Um uso comum para reflexão é durante o teste. A reflexão pode ajudá-lo a simular as aulas, expondo seus comportamentos internos. Um método de classe protegido ou privado normalmente não seria testável; usando reflexão, você pode substituir a restrição de visibilidade para que ela se torne pública em seus testes de unidade.
 
-#**Programação Defensiva**
+# **Programação Defensiva**
 ### Conceitos:
 - A programação defensiva é a criação de código para software de computador projetado para evitar questões problemáticas antes que elas surjam e tornar o produto mais estável. A ideia básica por trás dessa abordagem é criar um programa que seja capaz de funcionar adequadamente mesmo em processos imprevistos ou quando entradas inesperadas são feitas por usuários.
 
