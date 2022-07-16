@@ -2,10 +2,15 @@ from enum import Enum
 
 
 class TipoLogradouro(Enum):
-    """class atribui o tipo ao logradouro usado na classe tipoEndereco
+    """
+    class atribui o tipo ao logradouro usado na classe tipoEndereco
+    Paulo Roberto
+    16-07-2022
 
     Args:
         Enum (_type_)
+        Paulo Roberto
+        16-07-2022
     """
     Alameda = 0
     Avenida = 1
